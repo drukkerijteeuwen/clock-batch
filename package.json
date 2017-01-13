@@ -1,0 +1,26 @@
+{
+  "name": "clock-batch",
+  "author": "Peter Donders",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drukkerijteeuwen/clock-batch.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --require test/env --reporter spec --bail --check-leaks test/ test/"
+  },
+  "dependencies": {
+    "merge-descriptors": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "lib/"
+  ]
+}
